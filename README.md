@@ -15,6 +15,12 @@
 9. **mug-recognition-DenseNet121.ipynb**: 使用DenseNet121进行目标检测
 10. **mug-recognition-DenseNet121-pretrained.ipynb**: 使用预训练的DenseNet121迁移学习进行目标检测
 11. **ensemble.ipynb**: 使用模型集成学习方法进行目标检测
+12. **locate_project**： 中包含了定位相关的代码和数据集，可以直接在该文件夹下运行命令得到模型学习结果的IoU
+```commandline
+python multi_view.py
+python single_view.py
+```
+13. **Note**： 本次作业提交至网络学堂中的代码并非全部项目，最终的包含数据集的完整代码请从GitHub中获取。
 
 ## 下面是运行模型所在服务器的环境列表。
 
